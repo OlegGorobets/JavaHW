@@ -23,9 +23,6 @@ public class Main {
             }
         }
         list.removeIf(num -> num < 5);
-        System.out.println("Содержимое списка:");
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
+        System.out.println(list);
     }
 }
