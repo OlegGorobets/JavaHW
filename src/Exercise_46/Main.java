@@ -22,7 +22,7 @@ public class Main {
                 break;
             }
         }
-        list.removeIf(num -> num < 5);
+        list.removeIf(num -> num > 5);
         System.out.println(list);
     }
 }

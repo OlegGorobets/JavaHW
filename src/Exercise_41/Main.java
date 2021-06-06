@@ -24,7 +24,6 @@ public class Main {
             System.out.println(arr[i]);
         }
         Arrays.sort(arr);
-        System.out.println("Минимально значение массива: " + arr[0]);
-        System.out.println("Максимальное значение массива: " + arr[4]);
+        System.out.println("Минимально значение массива: " + arr[0] + ", Максимальное значение массива: " + arr[4]);
     }
 }
